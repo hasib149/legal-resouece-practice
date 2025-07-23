@@ -13,12 +13,12 @@
     />
     <title>Legal-Resource- Practice</title>
   </head>
-  <body class="max-w-[1040px] mx-auto mt-10 sm:grid grid-cols-1">
-    <header>
+  <body>
+    <header class="max-w-[1040px] mx-auto mt-10">
       <section>
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center flex-col md:flex-row">
           <img src="./images/logo2.png" alt="" />
-          <div class="flex space-x-6">
+          <div class="flex space-x-6 flex-col md:flex-row">
             <p>Home</p>
             <p>Service <i class="fa-solid fa-greater-than"></i></p>
             <p>Cases <i class="fa-solid fa-greater-than"></i></p>
@@ -33,16 +33,18 @@
         </div>
       </section>
       <!-- banner image section -->
-      <section>
+      <section class="max-w-[1040px] mx-auto mt-10">
         <div
           class="bg-[url('./images/banner.png')] text-white rounded-[8px] mt-[25px]"
         >
           <div class="text-center">
-            <h2 class="text-[65px] font-bold pt-[80px]">
+            <h2
+              class="text-[30px] md:text-[65px] font-bold pt-[80px] leading-16"
+            >
               We Provide Effective <br />
               Legal Solutions
             </h2>
-            <p class="font-[600] text-[#E7E7E7] pt-1">
+            <p class="font-[600] text-[#E7E7E7] pt-2.5">
               There are many variations of passages of Lorem Ipsum available,
               but the majority <br />
               have suffered alteration in some form, by injected humour.
@@ -50,7 +52,7 @@
           </div>
           <div class="text-center pt-8 pb-[80px]">
             <input
-              class="w-[450px] p-4 rounded-[8px] bg-white text-black"
+              class="lg:w-[450px] w-[300px] p-4 rounded-[8px] bg-white text-black"
               type="search"
               name="Search"
               id=""
@@ -66,7 +68,7 @@
       </section>
     </header>
     <!-- main section -->
-    <main>
+    <main class="max-w-[1040px] mx-auto mt-10">
       <div class="text-center mt-20">
         <h2 class="font-bold text-4xl text-[#414040]">
           The Legal Practice Area
@@ -77,6 +79,19 @@
           suffered alteration in some form, by injected humour.
         </p>
       </div>
+      <!-- card section -->
+      <section>
+        <div class="w-[300px]">
+          <img src="./images/business.png" alt="" />
+          <h2>Business Law</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <img src="./images/Frame.png" alt="" />
+        </div>
+      </section>
     </main>
   </body>
 </html>
